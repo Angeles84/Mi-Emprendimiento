@@ -1,0 +1,27 @@
+.footer {
+  background-color: $sable;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  
+  p {
+    color: $white;
+    font-family: $poppins;
+  }
+  .footer__col--1 p {
+    vertical-align: bottom;
+    margin-bottom: 0;
+  }
+}
+
+
+
+.footer__legal {
+  display: flex;
+  flex-direction: column;
+
+  @include medium {
+    flex-direction: row;  
+ }
+}
+
