@@ -4280,7 +4280,7 @@ input[type=button].btn-block {
   color: rgba(255, 255, 255, 0.99);
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 175, 109, 0.99);
+  color: rgba(255, 165, 0, 0.99);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
@@ -10009,9 +10009,9 @@ img {
   }
 }
 .girar {
-  -webkit-animation: rotar 5s linear 0s infinite;
-  animation: rotar 5s linear 0s infinite;
-  transform-origin: center;
+  -webkit-animation: rotar 3s linear 0s infinite;
+  animation: rotar 3s linear 0s infinite;
+  transform-origin: 55%;
   transform-box: fill-box;
 }
 
@@ -10180,7 +10180,7 @@ img {
   color: #FFF;
 }
 .navbar-dark .navbar-toggler:hover {
-  color: #FFAF6D;
+  color: #FFA500;
   text-decoration: none;
 }
 

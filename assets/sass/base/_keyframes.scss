@@ -15,9 +15,9 @@
   }
 
 .girar {
-    -webkit-animation: rotar 5s linear 0s infinite;
-    animation: rotar 5s linear 0s infinite;
-    transform-origin: center;
+    -webkit-animation: rotar 3s linear 0s infinite;
+    animation: rotar 3s linear 0s infinite;
+    transform-origin: 55%;
     transform-box: fill-box;
 }
 @-webkit-keyframes rotar {    
